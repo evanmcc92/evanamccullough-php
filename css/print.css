@@ -1,0 +1,73 @@
+@import url(http://fonts.googleapis.com/css?family=Alef:700);
+h1, h2, h3, h4, h5, a, footer {
+	font-family: 'Alef',"Helvetica", "Arial", sans-serif;
+}
+#printheader {
+	display: inline;
+}
+h2 {
+	text-align: center;
+}
+body {
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+#body {
+	width: 900px;
+	margin: 25px auto;
+	padding: 10px;
+}
+article {
+	width: 800px;
+	float:right;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+aside{
+	display: none;
+}
+#text {
+	padding: 20px 0;
+}
+textarea {
+	height: 100px;
+	width: 400px;
+}
+#email, #name {
+	width: 400px;
+}
+.button {
+	height: 40px;
+	width: 70px;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-right: 25px;
+	font-size: 100%;
+}
+.button:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+a {
+	color: black;
+}
+.logos  {
+	float: left;
+	margin: 0 10px 5px -5px ;
+}
+
+/*header*/
+
+header {
+	display: none;
+}
+
+/*end header*/
+
+/*footer*/
+footer {
+	display: none;
+}
+/*end footer*/

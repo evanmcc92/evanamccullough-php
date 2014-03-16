@@ -1,6 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Alef:700);
 h1, h2, h3, h4, h5, a, footer {
-	font-family: 'Alef', sans-serif;
+	font-family: 'Alef',"Helvetica", "Arial", sans-serif;
+}
+#printheader {
+	display: none;
 }
 h2 {
 	text-align: center;
@@ -77,10 +80,8 @@ header nav a {
 	text-decoration: none;
 }
 header nav li {
-	padding: 25px 50px;
+	padding: 25px 40px;
 	margin-left: -5px;
-	border-left: 1px solid white;
-	border-right: 1px solid white;
 }
 header section {
 	text-align: center;
@@ -125,5 +126,84 @@ footer {
 /*end footer*/
 
 /*tablet*/
-@media (min-width: 768px)  {
+@media (max-width: 900px)  {
+	#body {
+		width: 100%;
+		border: none;
+		box-shadow: none;
+		padding: 10px;
+		margin: -10px;
+	}
+	article {
+		width: 65%;
+		float:right;
+		padding-bottom: 20px;
+		padding-right: 10px;
+	}
+	aside{
+		width: 25%;
+		float:left;
+		text-align: center;
+	}
+	header {
+		border-bottom: 1px solid black;
+		margin: -10px;
+	}
+	footer {
+		margin: -10px;
+		margin-bottom: -30px;
+	}
+	header nav li {
+		padding: 0 50px;
+	}
+	textarea {
+		height: 15%;
+		width: 75%;
+	}
+	#email, #name {
+		width: 75%;
+	}
+}
+/*phone*/
+@media (max-width: 700px)  {
+	#body {
+		width: 100%;
+		border: none;
+		padding: -10px;
+		box-shadow: none;
+		margin: -10px;
+	}
+	article {
+		width: 100%;
+		float:none;
+		padding-bottom: 20px;
+		padding-right: 0;
+	}
+	aside{
+		display: none;
+	}
+	header {
+		margin: -10px;
+	}
+	footer {
+		margin: -10px;
+	}
+	textarea {
+		height: 15%;
+		width: 75%;
+	}
+	#email, #name {
+		width: 75%;
+	}
+	header nav li {
+		display: list-item;
+		padding: 5px;
+	}
+	header nav {
+
+	}
+	.button {
+		height: 40px;
+		width: 90px;
+	}
 }

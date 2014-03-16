@@ -2,15 +2,22 @@
 	<head>
 		<title>Evan McCullough</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
 
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 		<meta name="description" content="Helping people with their web development needs since 2012. This is THE personal site of yours truly, Evan McCullough" />
 		<meta name="author" content="Evan McCullough" />
+		<script type="text/javascript" src="js/googleAnalytics.js"></script>
 	</head>
 
 	<body>
 		<div id="body">
 		<?php include 'include/header.php'; ?>
+		
+		<section id="printheader">
+			<h1>Evan McCullough</h1>
+		</section>
+		
 		<div id="text">
 
 
@@ -46,7 +53,6 @@
 					<li><a href="#who">Who</a></li>
 					<li><a href="#what">What</a></li>
 					<li><a href="#why">Why</a></li>
-					<li><a href="#" target="_blank">Resume</a></li>
 				</ul>
 			</section>
 		</aside>
