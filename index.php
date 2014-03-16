@@ -3,6 +3,7 @@
 		<title>Evan McCullough</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+		<link rel="shortcut icon" href="img/favicon.png">
 
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 		<meta name="description" content="Helping people with their web development needs since 2012. This is THE personal site of yours truly, Evan McCullough" />

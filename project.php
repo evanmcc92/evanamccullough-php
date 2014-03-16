@@ -3,6 +3,7 @@
 		<title>Project | Evan McCullough</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
+		<link rel="shortcut icon" href="img/favicon.png">
 		
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 		<meta name="description" content="Helping people with their web development needs since 2012. This is THE personal site of yours truly, Evan McCullough. This is the showcase of all projects." />
@@ -13,7 +14,7 @@
 	<body>
 		<div id="body">
 		<?php include 'include/header.php'; ?>
-		
+
 		<section id="printheader">
 			<h1>Evan McCullough</h1>
 		</section>
@@ -82,6 +83,14 @@
 				</div>
 			</section>
 
+			<section id="vb">
+				<h2>Visual Basic</h2>
+				<div>
+				<h4><a href="https://github.com/evanmcc92/Boston-Bean-Coffee-Bar" target="_blank">Boston Bean Coffee Bar</a></h4>
+				<p><figure class="logos"><a href="https://github.com/evanmcc92/Boston-Bean-Coffee-Bar" target="_blank"><img src="img/bostonbean.png" alt="Evan A McCullough logo"/></a></figure>Boston Bean Coffee Bar is a fictional coffee shop that was created for a project in my stuctured programming class. The purpose of the project was to create a business and then design and develop 10 screens (5 screens per person) that would help the business function using Visual Studio and Visual Basic. The screens created include payroll, employee benefits, and customer orders for hot and cold beverages and pastries. The code for the project is on my <a href="https://github.com/evanmcc92/Boston-Bean-Coffee-Bar" target="_blank">GitHub</a> for all to see.</p>
+				</div>
+			</section>
+
 			<section id="upcoming">
 				<h2>Upcoming Projects</h2>
 				<ul>
@@ -99,6 +108,7 @@
 					<li><a href="#objective-c">Objective-C</a></li>
 					<li><a href="#php">PHP</a></li>
 					<li><a href="#rails">Ruby on Rails</a></li>
+					<li><a href="#vb">Visual Basic</a></li>
 					<li><a href="#upcoming">Upcoming</a></li>
 				</ul>
 			</section>
