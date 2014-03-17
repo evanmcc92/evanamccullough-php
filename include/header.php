@@ -7,8 +7,8 @@
 	<nav>
 		<ul>
 			<li><a href="project.php">Projects</a></li>
+			<li><a href="resume.php">Resume</a></li>
 			<li><a href="contact.php">Contact</a></li>
-			<li><a href="resume.php" target="_blank">Resume</a></li>
 			<li><a href="http://blog.evanamccullough.com" target="_blank"  onclick="_gaq.push(['_trackEvent','link','blog']);">Blog</a></li>
 		</ul>
 	</nav>

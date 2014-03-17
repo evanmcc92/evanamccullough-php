@@ -183,13 +183,13 @@ footer {
 		border: none;
 		padding: -10px;
 		box-shadow: none;
-		margin: -10px;
+		margin: -9px;
 	}
 	article {
 		width: 100%;
 		float:none;
 		padding-bottom: 20px;
-		padding-right: 0;
+		padding-right: -1px;
 	}
 	aside{
 		display: none;
@@ -217,5 +217,17 @@ footer {
 	.button {
 		height: 40px;
 		width: 90px;
+	}
+
+	.section-header h3 {
+		margin-bottom: 0;
+	}
+	.section-header h5 {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.section-header h5, small {
+		text-align:left;
+		margin-top: 0;
 	}
 }
